@@ -1,0 +1,247 @@
+.far {
+    font-size: 25px
+}
+
+.logOut {
+    color: #fd6e76;
+    font-size: 20px
+}
+
+.fas {
+    color: #fd6e76;
+    font-size: 20px;
+    float: left;
+}
+
+.group-href-items {
+    margin: 15px 3px;
+    padding: 8px 16px;
+}
+
+.globe {
+    font-size: 30px;
+    color: gray;
+}
+
+.HY,
+.EN {
+    color: yellow
+}
+
+.table-wrapper {
+    background: #fff;
+    padding: 20px 25px;
+    margin: 30px 0;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+
+}
+
+.table-title {
+    padding-bottom: 15px;
+    background: #cb3d4a;
+    color: #fff;
+    padding: 16px 30px;
+    margin: -20px -78px 10px;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1);
+
+}
+
+.table-title .addNew {
+    color: #ffffffbf;
+    float: right;
+    font-size: 13px;
+    border: none;
+    min-width: 50px;
+    border-radius: 2px;
+    outline: none !important;
+    margin-left: 10px;
+}
+
+.table-title .addNew i {
+    float: left;
+    font-size: 21px;
+    margin-right: 5px;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+
+}
+
+.table-title .addNew span {
+    float: left;
+    margin-top: 2px;
+}
+
+.addNew:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.table>thead>tr>th {
+    border-bottom-width: 1px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #9A9A9A;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+table.table td a {
+    font-weight: bold;
+    color: #566787;
+    display: inline-block;
+    text-decoration: none;
+
+
+}
+
+.image img {
+    width: 50px
+}
+
+.table-title h2 {
+    margin: 5px 0 0;
+    font-size: 24px;
+}
+
+.imageFile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, #cb3d4a, #cf8080);
+    color: #d7d7ef;
+    font-family: 'LATO', sans-serif
+}
+
+.imageFile>h3 {
+    text-transform: uppercase;
+    padding-top:10px;
+}
+
+.file-drop-area {
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    padding: 25px;
+    margin-bottom: 30px;
+    border: 1px dashed rgba(255, 255, 255, 0.4);
+    border-radius: 3px;
+    transition: .2s
+}
+
+.choose-file-button {
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    padding: 8px 15px;
+    margin-right: 10px;
+    font-size: 12px;
+    text-transform: uppercase
+}
+
+.file-message {
+    font-size: small;
+    font-weight: 300;
+    line-height: 1.4;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.file-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    cursor: pointer;
+    opacity: 0
+}
+
+.form-groups>label {
+    text-transform: uppercase;
+}
+
+.card>.cards {
+    background: white;
+    border: 0;
+}
+
+.selected-lang-en:before {
+    content: '';
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    padding-top: 10px;
+    background-image: url(https://www.countryflags.io/us/flat/32.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.selected-lang-am:before {
+    background-image: url(https://www.countryflags.io/AM/shiny/32.png);
+    content: '';
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    padding-top: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+}
+
+.selected-lang-am,
+.selected-lang-en {
+    font-size: 15px;
+}
+
+.Socials {
+    display: flex;
+}
+
+.Socials>a>i {
+    margin: 10px;
+}
+
+.iconInp {
+    width: 1000px;
+    height: 20px;
+}
+
+.AddUrl {
+    color: white;
+}
+
+.form-group>label {
+    font-size: 14px
+}
+
+.button {
+    border-width: 2px;
+    background-color: transparent;
+    font-weight: 400;
+    opacity: 0.8;
+    padding: 8px 50px;
+    border-color: #888888;
+    color: #888888;
+}
+
+.newTeam{
+    text-transform: uppercase;
+}
+.TeamMember{
+    border: 1px solid #eeeeee;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
